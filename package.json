@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "serve": "node server.js",
-    "dev": "node server.js"
+    "dev": "nodemon server.js"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +16,7 @@
     "mongoose": "^8.2.0"
   },
   "devDependencies": {
-    "node": "^3.1.0"
+    "cross-env": "^7.0.3",
+    "nodemon": "^3.1.0"
   }
 }
